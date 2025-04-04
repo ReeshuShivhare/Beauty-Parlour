@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Beauty Parlour</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Luxury Beauty</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Our Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="images/images.jpg" alt="Beauty Salon" class="hero-img">
+        <h2>Enhance Your Beauty, Enhance Your Confidence</h2>
+        <p>Professional beauty care services tailored for you.</p>
+        <button onclick="scrollToContact()">Book an Appointment</button>
+    </section>
+    
+    
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <img src="images/facial.jpg" alt="Facials">
+                <p>Facials</p>
+            </div>
+            <div class="service">
+                <img src="images/makeup.jpg" alt="Makeup">
+                <p>Makeup</p>
+            </div>
+            <div class="service">
+                <img src="images/hair.jpg" alt="Hair Styling">
+                <p>Hair Styling</p>
+            </div>
+            <div class="service">
+                <img src="images/nail.png" alt="Nail Art">
+                <p>Nail Art</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Our Works Section -->
+    <section id="works">
+        <h2>Our Works</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/work1.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="videos/work2.mp4" type="video/mp4">
+            </video>
+            <video controls>
+                <source src="videos/work3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a premier beauty parlour dedicated to enhancing your natural beauty with expert touch.</p>
+        <img src="images/about.jpg" alt="Salon Interior">
+    </section>
+    
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-details">
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> contact@luxurybeauty.com</p>
+        <p><strong>Address:</strong> 123, Beauty Street, Glamour City, India</p>
+    </div>
+</section>
+    
+<!-- Custom Alert Modal -->
+<div id="customAlert" class="alert-modal">
+    <div class="alert-content">
+        <span class="close-btn" onclick="closeAlert()">&times;</span>
+        <h2>🌟 Experience the Art of Beauty 🌟</h2>
+        <p>Where Elegance Meets Perfection!</p>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Luxury Beauty. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
